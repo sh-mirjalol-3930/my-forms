@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #FFE6C9;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+}
+.Login{
+    display: flex;
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 0 0 50px #E1C2A8;
+}
+.Login .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+}
+.left img{
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.form{
+    padding: 0 140px;
+}
+.btn-1{
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 70px;
+}
+.form button{
+    width: 100%;
+    padding: 5px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    border: 1px solid #DED2D9;
+}
+.form .icon img{
+    width: 10px;
+}
+.input::placeholder{
+    color: #E0E0E0;
+}
+.---{
+    color: #828282;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.form .input input{
+    width: 100%;
+    padding: 5px;
+}
+
+.form h1{
+    display: flex;
+    margin-top: 30px;
+}
+.form .checkbox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form .checkbox a{
+    color: #7F265B;
+    text-decoration: none;
+    font-size: 12px;
+}
+.form .checkbox div{
+    gap: 10px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    color: #828282;
+}
+
+.btn-1{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #E0E0E0;
+    color: #828282;
+}
+
+.form-h1 h1{
+    color: #525252;
+}
+.form-h1 p{
+    font-size: 15px;
+    color: #828282;
+    font-weight: 400;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+    background-color: #7F265B;
+    color: white;
+}
+
+.last-child{
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+}
+.last-child P{
+    color: #828282;
+}
+.last-child .color{
+    color: #7F265B;
+}
+
+
+@media (max-width:500px) {
+
+    .left{
+        display: none;
+    }
+    .left img{
+        display: none;
+    }
+    .Login{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        margin:  0 auto;
+    }
+    p{
+        font-size: 10px;
+    }
+}
